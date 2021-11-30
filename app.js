@@ -29,9 +29,14 @@ function calculatingLossAndProfit(inital, quantity, current) {
         showOutput(`Hey the Profit is ${profit} and the percent is ${profitPercentange}%`)
 
 
-    } else {
+    }else {
         showOutput('No pain no gain and no gain no pain')
 
     }
 
+}
+
+
+function showOutput(message){
+    showResult.innerHTML=message
 }

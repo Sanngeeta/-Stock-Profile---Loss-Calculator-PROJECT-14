@@ -1,0 +1,93 @@
+:root {
+    --primary-color:
+    #fafafa;
+}
+
+body{
+    text-align: center;
+    font-size: larger;
+    color: var(--primary-color);
+    background-image: url(photos/nnn.jpg); 
+    background-size: 200%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+
+    
+    } 
+
+
+
+
+
+
+
+
+input {
+    font-size: large;
+    display: flex;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
+}
+
+.button-btn {
+    background: var(--primary-color);
+    border: none;
+    color: rgb(5, 5, 5);
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+
+label{
+    font-size: x-large;
+}
+
+
+
+
+a,
+img {
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 1px;
+    margin-right: 3px;
+
+    
+}
+
+
+
+.footer-header{
+   color:rgb(248, 244, 244);
+
+}
+footer {
+    margin-top: 5rem;
+   
+
+   background-origin: padding-box;
+   color: wheat;
+   font-size: large;
+   margin-top: 20rem;
+   padding: 3rem;
+   border-bottom-left-radius: 1rem;
+   background-color: var(--primary-coloer);
+
+}
+
+
+.output{
+    margin-top: 4rem;
+    color: rgb(251, 253, 252);
+    font-size: xx-large;
+}
