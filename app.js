@@ -11,15 +11,15 @@ function clickHandler() {
     var intialValue = Number(intialPrice.value)
     var currentVlaue = Number(currentPrice.value)
     var quantityValue = Number(quantityStocks.value)
-    calculatingLossAndProfit(intialValue, currentVlaue, quantityValue)
+    calculatingLossAndProfit(intialValue,  quantityValue,currentVlaue)
 }
-
 
 function calculatingLossAndProfit(inital, quantity, current) {
     // console.log("clicked")
     if (inital > current) { //lose
         var lose = (inital - current) * quantity
         var losePercentage = (lose / inital) * 100
+        
         showOutput(`Hey the loss is ${lose} and the percent is ${losePercentage}%`)
 
 
